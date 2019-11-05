@@ -29,17 +29,30 @@ body{
 }
 
 /* header img text */
+.bgimg{
+  background-image: url("img_grey.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
 .container {
   position: relative;
   text-align: center;
-  color: white;
-  background-position: center;
-  background-size: cover;
+  color: black;
 }
+
 
 .textL{
   position: absolute;
     top: 5%;
     left:10%;
     float:left;
+}
+
+.section{
+  padding-bottom: 10%;
+  border-top-width: 0.15rem;
+  border-top-style: solid;
+  border-top-color: black;
 }

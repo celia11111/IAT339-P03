@@ -56,3 +56,24 @@ body{
   border-top-style: solid;
   border-top-color: black;
 }
+
+/* hover img change img */
+.project {
+        width: 130px;
+        height: 195px;
+        position: relative;
+        display: inline-block;
+        margin: 50px;
+    }
+
+.project .img-top {
+        display: none;
+        position: absolute;
+        top: 0;
+        left: 0;
+        z-index: 99;
+    }
+
+.project:hover .img-top {
+        display: inline;
+    }

@@ -1,17 +1,12 @@
 body{
-  /* font-family: Futura, "Trebuchet MS", Arial, sans-serif; */
-  padding: 3rem;
-  margin: 1rem;
+  font-family: 'Gudea';
 }
 
 /* navigation bar */
 .navbar{
-  /* position:absolute; */
-  /* padding-left:33.3%; */
-  text-align: right;
   list-style-type: none;
   display: inline-block;
-  float:right;
+  overflow:hidden;
 }
 
 .navbar a {
@@ -19,14 +14,16 @@ body{
   text-decoration: none;
   color:black;
   padding:0.5em;
+  float:right;
+  text-align: center;
 
 }
 
 
-.navbar a:hover {
+.navbar a:hover{
   text-decoration-line: underline;
-
 }
+
 
 /* header img text */
 .bgimg{
@@ -34,14 +31,18 @@ body{
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
+  position:relative;
 }
 
 .container {
-  position: relative;
-  text-align: center;
-  color: black;
+  position: absolute;
+  width:auto;
 }
 
+.container img{
+  width:100%;
+  height:90%;
+}
 
 .textL{
   position: absolute;
@@ -51,7 +52,9 @@ body{
 }
 
 .section{
-  padding-bottom: 10%;
+  padding-left: 2%;
+  padding-right:2%;
+  padding-bottom:10%;
   border-top-width: 0.15rem;
   border-top-style: solid;
   border-top-color: black;

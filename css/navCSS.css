@@ -1,0 +1,112 @@
+body {
+  font-family: 'Gudea';
+}
+
+* {
+  box-sizing: border-box;
+}
+
+
+/* Position the navbar container inside the image */
+.container {
+  position: absolute;
+  /* margin: 5%; */
+  width: auto;
+
+}
+
+/* The navbar */
+.topnav {
+  /* overflow: hidden; */
+z-index: 999;
+
+}
+
+/* Navbar links */
+.topnav a {
+  float: right;
+  color: rgb(200,200,200);
+  text-align: center;
+  padding-left: 1%;
+  padding-right:1%;
+  padding-top:5%;
+  text-decoration: none;
+  font-size: 14px;
+z-index: 999;
+}
+
+.topnav a:hover {
+  color: white;
+  text-decoration: underline;
+}
+
+.carousel-inner img {
+      width: 100%; /* Set width to 100% */
+      margin: a`uto;
+z-index: -999;
+  }
+
+.carousel-down img {
+      width: 100%; /* Set width to 100% */
+      height:100%;
+      margin: auto;
+
+  }
+
+.textL {
+position: absolute;
+width: 50%;
+height: auto;
+color:white;
+top:5em;
+left: 5em;
+
+}
+
+
+
+
+/* fade in out img */
+section {
+  position: relative;
+}
+
+section img {
+	position: absolute;
+  width:100%;
+  height:900px;
+}
+
+.top {
+	animation-name: fade;
+	animation-timing-function: ease-in-out;
+	animation-iteration-count: infinite;
+	animation-duration: 3s;
+	animation-direction: alternate;
+}
+
+@keyframes fade {
+	0% {
+		opacity: 1;
+	}
+	25% {
+		opacity: 1;
+	}
+	75% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 0;
+	}
+}
+
+
+
+
+
+  /* Hide the carousel text when the screen is less than 600 pixels wide */
+  @media (max-width: 600px) {
+    .carousel-caption {
+      display: none;
+    }
+  }

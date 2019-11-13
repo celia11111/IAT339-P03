@@ -32,7 +32,7 @@ z-index: 999;
   padding-top:5%;
   text-decoration: none;
   font-size: 14px;
-z-index: 999;
+  z-index: 999;
 }
 
 .topnav a:hover {
@@ -55,7 +55,7 @@ z-index: -999;
 
 .textL {
 position: absolute;
-width: 50%;
+width: 40%;
 height: auto;
 color:white;
 top:5em;
@@ -67,14 +67,14 @@ left: 5em;
 
 
 /* fade in out img */
-section {
+.sec {
   position: relative;
 }
 
-section img {
+.sec img {
 	position: absolute;
   width:100%;
-  height:900px;
+
 }
 
 .top {

@@ -68,13 +68,14 @@ left: 5em;
 
 /* fade in out img */
 .sec {
-  position: relative;
+  position:relative;
 }
 
 .sec img {
 	position: absolute;
   width:100%;
-
+height:auto;
+z-index: -1;
 }
 
 .top {

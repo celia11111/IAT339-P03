@@ -61,7 +61,9 @@ code {
   padding: 0.5rem;
   display: block;
 }
-
+#bio {
+  padding-top: 60em;
+}
 /* hover img change img */
 .project {
         /* width: 30%;

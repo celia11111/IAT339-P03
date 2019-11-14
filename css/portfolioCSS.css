@@ -61,9 +61,11 @@ code {
   padding: 0.5rem;
   display: block;
 }
+
 #bio {
   padding-top: 60em;
 }
+
 /* hover img change img */
 .project {
         /* width: 30%;
@@ -102,11 +104,4 @@ h3{
 h4{
   font-size: 1.5em;
   font-style: italic;
-}
-
-
-footer{
-  padding:3%;
-  background-color:rgb(233,238,240);
-  text-align: center;
 }

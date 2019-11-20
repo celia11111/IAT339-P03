@@ -25,7 +25,7 @@
 
 .banner {
   height: 100vh;
-  background: url("../img/banner.png") no-repeat;
+  background: url("../image/banner.png") no-repeat;
   background-position: center center;
   background-size: cover;
   position: relative; }

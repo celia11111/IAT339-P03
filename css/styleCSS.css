@@ -1,6 +1,6 @@
 body{
   font-family: 'Gudea';
-  padding:0.5em;
+  padding:5%;
 }
 
 
@@ -13,6 +13,10 @@ body{
   text-decoration-line: underline;
 }
 
+.bg img{
+  width:100%;
+  
+}
 
 .section{
   padding-left: 5%;

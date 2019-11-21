@@ -1,6 +1,6 @@
 body{
   font-family: 'Gudea';
-  padding:5%;
+  padding:0;
 }
 
 
@@ -38,6 +38,10 @@ width:45%;
 height:auto;
 padding: 2%;
 display: inline-block;
+}
+
+.row2 img{
+    width:95%;
 }
 
 .row3{
@@ -81,6 +85,7 @@ code {
 /* font */
 h1{
   font-size: 2em;
+    padding-left:3%;
 }
 
 h2{

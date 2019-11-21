@@ -30,6 +30,13 @@
   background-size: cover;
   position: relative; }
 
+.bannerr {
+  height: 100vh;
+  background: url("../image/3dtitle.jpg") no-repeat;
+  background-position: center center;
+  background-size: cover;
+  position: relative; }
+
 .txt {
   width: 100%;
   height: 100%;
@@ -435,11 +442,16 @@ dl {
         line-height: 35px; }
 
 .foo2 {
-  padding: 35px 0;
+  /* padding: 35px 0;
   background: #444;
   text-align: center;
   color: #fff;
-  font-size: 16px; }
+  font-size: 16px;  */
+
+  padding:3%;
+  background-color:rgb(233,238,240);
+  text-align: center;
+}
 
 .downw {
   background: #ff2828 !important;

@@ -9,7 +9,10 @@
   align-items: center;
   justify-content: space-between;
   z-index: 333;
-  padding: 0 25px; }
+  padding: 0 25px;
+  font-family: 'Gudea';
+}
+
   .nav img {
     height: 50px; }
   .nav .link span {

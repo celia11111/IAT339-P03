@@ -1,7 +1,7 @@
 @font-face{
     font-family:'Gudea';
     font-weight:normal;
-    font-style:normal;
+    font-style:bold;
     src:url('../gudea/gudea-bold.ttf');
 }
 
@@ -12,9 +12,4 @@
     src:url('../gudea/gudea-regular.ttf');
 }
 
-@font-face{
-    font-family:'Gudea';
-    font-weight:normal;
-    font-style:normal;
-    src:url('../gudea/gudea-italic.ttf');
-}
+

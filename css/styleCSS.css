@@ -55,10 +55,11 @@ display: inline-block;
   width:90%;
 }
 
-code {
+.code {
   background-color: #EEE;
-  padding: 0.5rem;
+  padding: 3%;
   display: block;
+  color:grey;
 }
 
 /* hover img change img */
@@ -81,10 +82,6 @@ code {
 .project:hover .img-top {
         display: inline;
     }
-
-.video{
-    padding: 2%;
-}
 
 
 /* font */

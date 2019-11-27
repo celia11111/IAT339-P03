@@ -82,10 +82,19 @@ code {
         display: inline;
     }
 
+.video{
+    padding: 2%;
+}
+
+
 /* font */
 h1{
   font-size: 2em;
-    padding-left:3%;
+  padding:3%;
+}
+
+h5{
+font-size:2em;
 }
 
 h2{
@@ -99,6 +108,10 @@ h3{
 h4{
   font-size: 1.5em;
   font-style: italic;
+}
+
+h5{
+    font-size:1.5em;
 }
 
 

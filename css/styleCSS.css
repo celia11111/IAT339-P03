@@ -18,10 +18,11 @@ body{
   
 }
 
+@media screen and (min-width: 1120px) {
 .section{
   padding-left: 5%;
   padding-right:5%;
-  /* padding-top:10%; */
+   padding-top:1%; 
   padding-bottom:10%;
   border-top-width: 0.15rem;
   border-top-style: solid;
@@ -82,6 +83,78 @@ display: inline-block;
 .project:hover .img-top {
         display: inline;
     }
+}
+
+
+
+@media screen and (max-width: 1120px) {
+.section{
+  padding-left: 5%;
+  padding-right:5%;
+  /* padding-top:10%; */
+  padding-bottom:10%;
+  border-top-width: 0.15rem;
+  border-top-style: solid;
+  border-top-color: black;
+}
+
+.insec{
+padding:2%;
+}
+
+
+.row2{
+width:90%;
+height:auto;
+padding: 2%;
+display: inline-block;
+}
+
+.row2 img{
+    width:95%;
+}
+
+.row3{
+  width:90%;
+  padding:1%;
+  height:auto;
+  display:inline-block;
+}
+
+.row3 img{
+  width:90%;
+}
+
+.code {
+  background-color: #EEE;
+  padding: 3%;
+  display: block;
+  color:grey;
+}
+
+/* hover img change img */
+.project {
+        width: 33.3%;
+        height: 195px;
+        position: relative;
+        display: inline-block;
+        margin: 5%;
+    }
+
+.project .img-top {
+        display: none;
+        position: absolute;
+        top: 0;
+        left: 0;
+        z-index: 99;
+    }
+
+.project:hover .img-top {
+        display: inline;
+    }
+}
+
+
 
 
 /* font */

@@ -8,10 +8,10 @@ body {
 
 
 /* Position the navbar container inside the image */
+@media screen and (min-width: 1120px) {
 .container {
   position: absolute;
   /* margin: 5%; */
-  width: auto;
 }
 
 /* The navbar */
@@ -23,6 +23,76 @@ body {
 /* Navbar links */
 .topnav a {
   float: right;
+  color: rgb(200,200,150);
+  text-align: center;
+  padding-right:1%;
+  padding-top:5%;
+  text-decoration: none;
+  font-size: 14px;
+  z-index: 999;
+    
+}
+
+.topnav a:hover {
+  color: rgb(226, 242, 243);
+  text-decoration: underline;
+ 
+        transition: 0.2s;
+/*
+        border-bottom-style: solid;
+        border-bottom-color:rgb(226, 242, 243);
+        border-bottom-width:thin;
+*/
+}
+
+
+.carousel-inner img {
+      width: 100%; /* Set width to 100% */
+      margin: auto;
+z-index: -999;
+  }
+
+.carousel-down img {
+      width: 100%; /* Set width to 100% */
+      height:100%;
+      margin: auto;
+
+  }
+
+.textL {
+position: absolute;
+width: 40%;
+height: auto;
+color:white;
+top:5em;
+left: 5em;
+
+}
+
+    
+}
+
+@media screen and (max-width: 1120px) {
+    
+    .container {
+  position: absolute;
+  width: auto;
+float:right;
+
+}
+
+/* The navbar */
+.topnav {
+  /* overflow: hidden; */
+  z-index: 999;
+width: 50px;
+    padding-top:2em;
+    padding-left:5%;
+   
+}
+
+/* Navbar links */
+.topnav a {
   color: rgb(116,105,120);
   text-align: center;
   padding-right:1%;
@@ -56,15 +126,19 @@ z-index: -999;
 
   }
 
-.textL {
+.textL { 
 position: absolute;
-width: 40%;
+width: 50%;
 height: auto;
 color:white;
 top:5em;
 left: 5em;
+    padding-left:15%;
+   
 
 }
+}
+
 
 
 
@@ -133,3 +207,26 @@ document.getElementById(divId).style.display = 'none';
     background-color:rgb(233,238,240);
     text-align: center;
   }
+
+
+
+li{
+
+list-style-type: none;
+}
+
+
+.mylinks li{
+    margin:0 2%; 
+    float:none;
+    display: inline;
+}
+
+.mylinks a{
+   color:grey; /* fancy red color for your links*/
+    
+}
+.mylinks a:hover {
+   color:black; /* fancy red color for your links*/
+    text-decoration: underline;
+}
